@@ -15,7 +15,7 @@ public class Checkvalidation {
         WebDriver driver = new ChromeDriver(options);
         driver.get("https://www.facebook.com/");
         Assert.assertEquals(driver.getTitle(), title);
-        Assert.assertTrue(true);
+        Assert.assertTrue(false);
     }
 
 
